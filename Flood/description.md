@@ -1,5 +1,5 @@
 # Flood Simulation
-simulate flood attack to produce abnormal traffic.
+Simulate flood attack to produce abnormal traffic.
 
 SYN flood to SSH port
 
