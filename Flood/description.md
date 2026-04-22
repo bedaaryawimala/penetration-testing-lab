@@ -11,3 +11,4 @@ sudo hping3 -S --flood -p 80 192.168.221.130
 
 Expected results:
   - custom rule and built-in suricata alert show up
+  - event can be seen in kibana
