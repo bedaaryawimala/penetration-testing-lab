@@ -26,3 +26,14 @@ Kali Linux
   - Hydra
   - Nikto
   - hping3
+
+# Additional Notes
+events can be seen from eve.json by using:
+
+tail -f /var/log/suricata/eve.json | grep -a '"event_type":"alert"'
+
+(that command will only show the suricata alert response to the attack)
+
+to see all of the events, use:
+
+tail -f /var/log/suricata/eve.json
