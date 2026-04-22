@@ -8,3 +8,21 @@ The penetration testing includes:
   - flood
 
 Result shows that every activity can be detected wether it's from custom rule suricata, built-in alert suricata, or log host in kibana.
+
+# Topology
+the structures for this soc lab is the same as the one in elastic-soc-lab repo with the addition of suricata and its custom rule.
+
+Ubuntu live server
+  - Elasticsearch
+  - Kibana
+  - Fleet Server
+  - Elastic Agent
+  - Suricata IDS
+  - Nginx for web probing target
+
+Kali Linux
+  - Elastic Agent
+  - Nmap
+  - Hydra
+  - Nikto
+  - hping3
